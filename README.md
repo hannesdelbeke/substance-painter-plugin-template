@@ -29,8 +29,7 @@ A Substance Painter plugin template.
 4. Read the file [CONTRIBUTING.md](CONTRIBUTING.md)
 > ⚠️ **WAIT** until first CI run on github actions before cloning your new project.
 5. Then clone your new project and happy coding!
-
-<!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
+6. delete all text above this, and complete the README template below for your project
 
 ---
 # project_name
