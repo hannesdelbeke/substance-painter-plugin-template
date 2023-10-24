@@ -1,4 +1,4 @@
-"""CLI interface for substance_painter_plugin_template project.
+"""CLI interface for project_name project.
 
 Be creative! do whatever you want!
 
@@ -12,7 +12,7 @@ Be creative! do whatever you want!
 def main():  # pragma: no cover
     """
     The main function executes on commands:
-    `python -m substance_painter_plugin_template` and `$ substance_painter_plugin_template `.
+    `python -m project_name` and `$ project_name `.
 
     This is your program's entry point.
 

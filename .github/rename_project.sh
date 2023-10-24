@@ -16,10 +16,10 @@ echo "Description: $description";
 
 echo "Renaming project..."
 
-original_author="hannesdelbeke"
-original_name="substance_painter_plugin_template"
-original_urlname="substance-painter-plugin-template"
-original_description="Awesome substance_painter_plugin_template created by hannesdelbeke"
+original_author="author_name"
+original_name="project_name"
+original_urlname="project_urlname"
+original_description="project_description"
 # for filename in $(find . -name "*.*") 
 for filename in $(git ls-files) 
 do
@@ -30,7 +30,7 @@ do
     echo "Renamed $filename"
 done
 
-mv substance_painter_plugin_template $name
+mv project_name $name
 
 # This command runs only once on GHA!
 rm -rf .github/template.yml

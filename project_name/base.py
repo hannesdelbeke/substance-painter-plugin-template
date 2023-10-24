@@ -1,7 +1,7 @@
 """
-substance_painter_plugin_template base module.
+project_name base module.
 
-This is the principal module of the substance_painter_plugin_template project.
+This is the principal module of the project_name project.
 here you put your main classes and objects.
 
 Be creative! do whatever you want!
@@ -14,4 +14,4 @@ and then choose `flask` as template.
 """
 
 # example constant variable
-NAME = "substance_painter_plugin_template"
+NAME = "project_name"

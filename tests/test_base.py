@@ -1,5 +1,5 @@
-from substance_painter_plugin_template.base import NAME
+from project_name.base import NAME
 
 
 def test_base():
-    assert NAME == "substance_painter_plugin_template"
+    assert NAME == "project_name"

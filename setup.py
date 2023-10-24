@@ -1,4 +1,4 @@
-"""Python setup.py for substance_painter_plugin_template package"""
+"""Python setup.py for project_name package"""
 import io
 import os
 from setuptools import find_packages, setup
@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 def read(*paths, **kwargs):
     """Read the contents of a text file safely.
-    >>> read("substance_painter_plugin_template", "VERSION")
+    >>> read("project_name", "VERSION")
     '0.1.0'
     >>> read("README.md")
     ...
@@ -30,17 +30,17 @@ def read_requirements(path):
 
 
 setup(
-    name="substance_painter_plugin_template",
-    version=read("substance_painter_plugin_template", "VERSION"),
-    description="Awesome substance_painter_plugin_template created by hannesdelbeke",
-    url="https://github.com/hannesdelbeke/substance-painter-plugin-template/",
+    name="project_name",
+    version=read("project_name", "VERSION"),
+    description="project_description",
+    url="https://github.com/author_name/project_urlname/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    author="hannesdelbeke",
+    author="author_name",
     packages=find_packages(exclude=["tests", ".github"]),
     install_requires=read_requirements("requirements.txt"),
     entry_points={
-        "console_scripts": ["substance_painter_plugin_template = substance_painter_plugin_template.__main__:main"]
+        "console_scripts": ["project_name = project_name.__main__:main"]
     },
     extras_require={"test": read_requirements("requirements-test.txt")},
 )
