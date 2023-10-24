@@ -46,6 +46,7 @@ project_description
 pip install --no-dependencies https://github.com/author_name/project_urlname/archive/refs/heads/main.zip --target "C:\Users\USER\OneDrive\Documents\Adobe\Adobe Substance 3D Painter\python\plugins"
 ```
 #### install dependencies
+download the repo, browse to the folder with the `requirements.txt`
 ```bash
 pip install -r requirements.txt --target "C:\Users\USER\OneDrive\Documents\Adobe\Adobe Substance 3D Painter\python\modules"
 ```
