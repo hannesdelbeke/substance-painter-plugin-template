@@ -28,8 +28,6 @@ A Substance Painter plugin template.
 - 🤖 A [Makefile](Makefile) with the most useful commands to install, test, lint, format and release your project.
 - 📃 Documentation structure using [mkdocs](http://www.mkdocs.org)
 - 💬 Auto generation of change log using **gitchangelog** to keep a HISTORY.md file automatically based on your commit history on every release.
-- 🐋 A simple [Containerfile](Containerfile) to build a container image for your project.  
-  `Containerfile` is a more open standard for building container images than Dockerfile, you can use buildah or docker with this file.
 - 🧪 Testing structure using [pytest](https://docs.pytest.org/en/latest/)
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
