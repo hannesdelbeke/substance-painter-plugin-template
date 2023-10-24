@@ -21,7 +21,7 @@ A Substance Painter plugin template.
 
 ### HOW TO USE THIS TEMPLATE
 
-1. Click on **[Use this template](https://github.com/rochacbruno/python-project-template/generate)**
+1. Click on **[Use this template](https://github.com/hannesdelbeke/substance-painter-plugin-template/generate)**
 3. Give a name to your project (e.g. `my_awesome_project` recommendation is to use all lowercase and underscores separation for repo names.)
 3. Wait until the first run of CI finishes (Github Actions will process the template and commit to your new repo)
 4. If you want [codecov](https://about.codecov.io/sign-up/) Reports and Automatic Release to [PyPI](https://pypi.org)  
