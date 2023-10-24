@@ -23,7 +23,7 @@ A Substance Painter plugin template.
 
 1. Click on **[Use this template](https://github.com/hannesdelbeke/substance-painter-plugin-template/generate)**
 3. Give a name to your project (e.g. `my_awesome_project`, use all lowercase and underscores separation <!-- TODO see if we can swap to my-awesome-project for package & project name, but my_awesome_project for python module --> 
-3. Wait until the first run of CI finishes (Github Actions will process the template and commit to your new repo)
+3. Wait until the first run of CI finishes
 4. For [codecov](https://about.codecov.io/sign-up/) Reports & Automatic Release to [PyPI](https://pypi.org)  
    go to `settings->secrets` add your `PYPI_API_TOKEN` and `CODECOV_TOKEN`
 4. Read the file [CONTRIBUTING.md](CONTRIBUTING.md)
