@@ -30,6 +30,7 @@ A Substance Painter plugin template.
 > ⚠️ **WAIT** until first CI run on github actions before cloning your new project.
 5. Then clone your new project and happy coding!
 6. delete all text above this, and complete the README template below for your project
+7. This template is in the public domain. Choose a LICENSE for your repo
 
 ---
 # project_name
