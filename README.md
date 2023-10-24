@@ -52,7 +52,7 @@ pip install -r requirements.txt --target "C:\Users\USER\OneDrive\Documents\Adobe
 ```
 
 ## Usage
-1. enable the plugin in Substance from the Menu `Python`
+1. enable the plugin in Substance from the Menu `Python/project_name`
 
 ## Development
 Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
