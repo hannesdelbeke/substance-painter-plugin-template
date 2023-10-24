@@ -16,7 +16,9 @@ A Substance Painter plugin template.
 
 
 ### What is included on this template?
+![image](https://github.com/hannesdelbeke/substance-painter-plugin-template/assets/3758308/f0d6ee12-4c59-4862-b965-038ee3bd8b48)
 
+- a dockable Substance Painter widget
 - 📦 A [pyproject.toml](pyproject.toml) so you can pip install this plugin.  
 - 🤖 A [Makefile](Makefile) with the most useful commands to install, test, lint, format and release your project.
 - 📃 Documentation structure using [mkdocs](http://www.mkdocs.org)
