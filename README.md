@@ -6,10 +6,8 @@ A Substance Painter plugin template.
 ### HOW TO USE THIS TEMPLATE
 
 1. Click on **[Use this template](https://github.com/rochacbruno/python-project-template/generate)**
-3. Give a name to your project  
-   (e.g. `my_awesome_project` recommendation is to use all lowercase and underscores separation for repo names.)
-3. Wait until the first run of CI finishes  
-   (Github Actions will process the template and commit to your new repo)
+3. Give a name to your project (e.g. `my_awesome_project` recommendation is to use all lowercase and underscores separation for repo names.)
+3. Wait until the first run of CI finishes (Github Actions will process the template and commit to your new repo)
 4. If you want [codecov](https://about.codecov.io/sign-up/) Reports and Automatic Release to [PyPI](https://pypi.org)  
   On the new repository `settings->secrets` add your `PYPI_API_TOKEN` and `CODECOV_TOKEN` (get the tokens on respective websites)
 4. Read the file [CONTRIBUTING.md](CONTRIBUTING.md)
@@ -39,28 +37,14 @@ A Substance Painter plugin template.
 
 project_description
 
-## Install it from PyPI
-
+## Install 
+from PyPI
 ```bash
-pip install project_name
+pip install --no-dependencies project_name  --target "C:\Users\USER\OneDrive\Documents\Adobe\Adobe Substance 3D Painter\python\plugins"
 ```
 
 ## Usage
-
-```py
-from project_name import BaseClass
-from project_name import base_function
-
-BaseClass().base_method()
-base_function()
-```
-
-```bash
-$ python -m project_name
-#or
-$ project_name
-```
+1. enable the plugin in Substance from the Menu `Python`
 
 ## Development
-
 Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
