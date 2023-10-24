@@ -38,9 +38,10 @@ A Substance Painter plugin template.
 project_description
 
 ## Install 
-from PyPI
+- Manually copy `project_name.py` to your plugin folder, e.g. `C:\Users\USER\OneDrive\Documents\Adobe\Adobe Substance 3D Painter\python\plugins`
+- or pip install from this repo
 ```bash
-pip install --no-dependencies project_name  --target "C:\Users\USER\OneDrive\Documents\Adobe\Adobe Substance 3D Painter\python\plugins"
+pip install --no-dependencies https://github.com/author_name/project_urlname/archive/refs/heads/main.zip --target "C:\Users\USER\OneDrive\Documents\Adobe\Adobe Substance 3D Painter\python\plugins"
 ```
 
 ## Usage
