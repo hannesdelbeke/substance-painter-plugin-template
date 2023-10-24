@@ -3,17 +3,6 @@
 
 A Substance Painter plugin template.
 
-### HOW TO USE THIS TEMPLATE
-
-1. Click on **[Use this template](https://github.com/rochacbruno/python-project-template/generate)**
-3. Give a name to your project (e.g. `my_awesome_project` recommendation is to use all lowercase and underscores separation for repo names.)
-3. Wait until the first run of CI finishes (Github Actions will process the template and commit to your new repo)
-4. If you want [codecov](https://about.codecov.io/sign-up/) Reports and Automatic Release to [PyPI](https://pypi.org)  
-  On the new repository `settings->secrets` add your `PYPI_API_TOKEN` and `CODECOV_TOKEN` (get the tokens on respective websites)
-4. Read the file [CONTRIBUTING.md](CONTRIBUTING.md)
-> ⚠️ **WAIT** until first CI run on github actions before cloning your new project.
-5. Then clone your new project and happy coding!
-
 
 ### What is included on this template?
 ![image](https://github.com/hannesdelbeke/substance-painter-plugin-template/assets/3758308/f0d6ee12-4c59-4862-b965-038ee3bd8b48)
@@ -28,6 +17,18 @@ A Substance Painter plugin template.
    - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
    - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
    - 🛳️ Automatic release to [PyPI](https://pypi.org)
+
+
+### HOW TO USE THIS TEMPLATE
+
+1. Click on **[Use this template](https://github.com/rochacbruno/python-project-template/generate)**
+3. Give a name to your project (e.g. `my_awesome_project` recommendation is to use all lowercase and underscores separation for repo names.)
+3. Wait until the first run of CI finishes (Github Actions will process the template and commit to your new repo)
+4. If you want [codecov](https://about.codecov.io/sign-up/) Reports and Automatic Release to [PyPI](https://pypi.org)  
+  On the new repository `settings->secrets` add your `PYPI_API_TOKEN` and `CODECOV_TOKEN` (get the tokens on respective websites)
+4. Read the file [CONTRIBUTING.md](CONTRIBUTING.md)
+> ⚠️ **WAIT** until first CI run on github actions before cloning your new project.
+5. Then clone your new project and happy coding!
 
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
