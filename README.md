@@ -13,17 +13,13 @@ A Substance Painter plugin template.
 4. If you want [codecov](https://about.codecov.io/sign-up/) Reports and Automatic Release to [PyPI](https://pypi.org)  
   On the new repository `settings->secrets` add your `PYPI_API_TOKEN` and `CODECOV_TOKEN` (get the tokens on respective websites)
 4. Read the file [CONTRIBUTING.md](CONTRIBUTING.md)
+> ⚠️ **WAIT** until first CI run on github actions before cloning your new project.
 5. Then clone your new project and happy coding!
 
-> **NOTE**: **WAIT** until first CI run on github actions before cloning your new project.
 
 ### What is included on this template?
 
-- 🖼️ Templates for starting multiple application types:
-  * **Basic low dependency** Python program (default) [use this template](https://github.com/rochacbruno/python-project-template/generate)
-  * **Flask** with database, admin interface, restapi and authentication [use this template](https://github.com/rochacbruno/flask-project-template/generate).
-  **or Run `make init` after cloning to generate a new project based on a template.**
-- 📦 A basic [setup.py](setup.py) file to provide installation, packaging and distribution for your project.  
+- 📦 A [pyproject.toml](pyproject.toml) so you can pip install this plugin.  
   Template uses setuptools because it's the de-facto standard for Python packages, you can run `make switch-to-poetry` later if you want.
 - 🤖 A [Makefile](Makefile) with the most useful commands to install, test, lint, format and release your project.
 - 📃 Documentation structure using [mkdocs](http://www.mkdocs.org)
