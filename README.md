@@ -2,6 +2,7 @@
 # Substance Painter plugin template
 
 A Substance Painter plugin template.
+- e.g. used for https://github.com/plugget/plugget-substance-painter-plugin
 
 
 ### What is included on this template?
